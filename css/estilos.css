@@ -1,0 +1,18 @@
+.container-header{
+    display: flex;
+    justify-content: space-between; /*Distribuye los elementos hijos de manera que el primer elemento esté al principio y el último al final, con el espacio restante distribuido uniformemente entre los elementos*/
+    align-items: center; /*centrar elementos verticalmente*/
+    height: 10vh;
+    margin-bottom: 20px;    /* Margen inferior de 20px */
+    border: 10px solid #ccc;
+    overflow: hidden;
+    
+}
+.logo-header{
+    height: 100%;
+}
+.container-ul{
+    display: flex;
+    list-style-type: none; /* Quita los marcadores de lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+}

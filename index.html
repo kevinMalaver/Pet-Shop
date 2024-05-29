@@ -3,32 +3,35 @@
     <meta charset="UTF-8">
     <meta name="viweport" content="width=device-width, initia-scale=1.0"><!-- width ajusta el ancho al del dispositivo, Initial Inicia la escala 1 a 1-->
     <title>Pet Shop</title>
+    <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 <header>
-    <nav>
-        <div>
-            <img src="img/Logo.png" alt="Icono del sitio">
+    <nav class="container-header">
+        <div class = "logo-header">
+            <img class = "logo-header" src="img/Logo.png" alt="Icono del sitio">
         </div>
-        <div>
+        <div class = "searh-bar-header">
             <input type="text" placeholder="Buscar...">
             <button type="button">Buscar</button>
         </div>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Tienda</a></li>
-            <ul>
-                <li><a href="#">Perros</a></li>
-                <li><a href="#">Gatos</li>
+        <div>
+            <ul class="container-ul">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Tienda</a></li>
+                <ul>
+                    <li><a href="#">Perros</a></li>
+                    <li><a href="#">Gatos</li>
+                </ul>
+                <li><a href="#">Iniciar Sesion</a></li>
+                <ul>
+                    <li><a href="#">Registrase</a></li>
+                </ul>
+                <li><a href="#">Carrito</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
-            <li><a href="#">Iniciar Sesion</a></li>
-            <ul>
-                <li><a href="#">Registrase</a></li>
-            </ul>
-            <li><a href="#">Carrito</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul> 
+        </div> 
     </nav>
 </header>
 <main>
@@ -67,4 +70,24 @@
         </div>
     </div>
 </main>
+<footer>
+    <div>
+        <div>
+            <img src="img/Logo.png" alt="Logo Footer">
+        </div>
+        <div>
+            <h2>Serivicio al Cliente</h2>
+            <img src="img/Logo.png" alt="Logo Footer"><p>Pet Shop</p>
+            <img src="img/Logo.png" alt="Logo Footer"><p>Diaginal 49 sur # 85 - 17</p>
+            <img src="img/Logo.png" alt="Logo Footer"><p>(+57) 3102338255</p>
+
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8316428861344!2d-74.1797561885122!3d4.624107995331266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9e79339ea823%3A0x5ade111948e50a3b!2sDg.%2049%20Sur%20%2385-17%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1716938336913!5m2!1ses-419!2sco" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        
+    </div>
+</footer>
 </html>
