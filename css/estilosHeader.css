@@ -14,6 +14,7 @@ nav{
     justify-content: space-between; /*Distribuye los elementos hijos de manera que el primer elemento esté al principio y el último al final, con el espacio restante distribuido uniformemente entre los elementos*/
     align-items: center; /*centrar elementos verticalmente*/
     height: 6vh;
+    padding: 0 20px;
     /*margin-bottom: 20px;    /* Margen inferior de 20px */
     /*border: 10px solid #ccc;*/
     /*overflow: hidden; /*Ocultar parte del elemento que sobresalga del contenedor*/
@@ -62,15 +63,31 @@ nav ul li:hover > ul{
 
 /* Barra de Busqueda*/
 .container-search-bar-header{
+    position: relative;
     height: auto;
     width: 20%;
 }
 .search-bar-header{
-    border: 1px #161348 solid;
-    border-radius: 4px;
-    color: #161348;
-    height: 40%;
     width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    box-sizing: border-box; /*Hace que el tamaño del elemento incluya los rellenos*/
+    border: 1px #161348 solid;
+    border-radius: 5px;
+    color: #161348;
+    outline: none; /*Quitar el contorno que se genera cuando se clickea*/
+}
+.search-button{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer; /*poner el cursor como seleccionador*/
+}
+.search-button img{
+    height: 20px;
+    width: auto;
 }
 
 /*logo*/
