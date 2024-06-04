@@ -1,0 +1,60 @@
+.container-sections{
+    display: flex;
+}
+
+.section1, .section3{
+    width: 20%;
+}
+
+.subsection1, .subsection3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*centrar elementos horizontalmente*/
+    text-align: center; /*centrar texto*/
+    height: 50%;
+    padding: 0 10%;
+}
+.subsection1 img, .subsection3 img{
+    border-radius: 10%;
+}
+.section2{
+    width: 60%;
+    height: auto;
+    text-align: center;
+} 
+table.subsection2{
+    width: 100%;
+    border-collapse: separate; /*Permite que haya espaciado*/
+    border-spacing: 30px 30px; /*border-spacing: colums rows;*/
+}
+table tbody td{
+    position: relative;
+    width: 30%;
+    height: auto;
+    padding: 2%;
+    box-shadow: 5px 5px 10px #000;
+}
+table tbody td img{
+    max-width: 100%;
+    height: auto;
+}
+table tbody td button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    right: 10%;
+    height: auto;
+    padding: 3%;
+    background-color: #08ac5c;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+table tbody td button img{
+    max-width: 20px;
+    height: auto;
+}
