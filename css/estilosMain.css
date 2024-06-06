@@ -2,6 +2,8 @@
     display: flex;
 }
 
+/*Seccion de los costados*/
+
 .section1, .section3{
     width: 20%;
 }
@@ -14,15 +16,25 @@
     height: 50%;
     padding: 0 10%;
 }
-.subsection1 img, .subsection3 img{
+.subsection1 a img, .subsection3 a img{
+    width: 100%;
     border-radius: 10%;
+    transition: transform 0.3s; /* Tiempo en el que tarda en hacer la transicion*/
+    cursor: pointer;
 }
+.subsection1 a img:hover, .subsection3 a img:hover{
+   transform: scale(1.1); 
+    
+}
+
+/*Seccion ofertas*/
+
 .section2{
     width: 60%;
     height: auto;
     text-align: center;
 } 
-table.subsection2{
+table.subsection2{ /*tablas con clase subsection2*/
     width: 100%;
     border-collapse: separate; /*Permite que haya espaciado*/
     border-spacing: 30px 30px; /*border-spacing: colums rows;*/

@@ -1,0 +1,35 @@
+.container-footer{
+    display: flex;
+    height: 20vh;
+    justify-content:center;
+    align-items: center;
+    padding: 2%;
+    background-color: #ACC8E5;
+    gap: 10%;
+}
+.logo-footer{
+    height: 80%;
+}
+.logo-footer img{
+    height: 100%;
+}
+
+.info-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.info-footer div{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+}
+.info-footer div img{
+    height: 30px;
+    width: auto;
+}
+.map-footer iframe{
+    height: 100%;
+    border: none;
+}
